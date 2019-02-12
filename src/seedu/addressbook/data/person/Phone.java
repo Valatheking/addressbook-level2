@@ -10,7 +10,7 @@ public class Phone {
 
     public static final String EXAMPLE = "123456789";
     public static final String MESSAGE_PHONE_CONSTRAINTS = "Person phone numbers should only contain numbers and can be prefixed with a plus sign ";
-    public static final String PHONE_VALIDATION_REGEX = "\\+?\\d+";
+    public static final String PHONE_VALIDATION_REGEX = "\\+?\\d{8,16}";
 
     public final String value;
     private boolean isPrivate;
